@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.4;
+  font-weight: 300;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+}
+header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+nav ul li {
+  font-size: 1.6rem;
+  list-style: none;
+  font-weight: 500;
+}
+nav ul li:hover {
+  border-bottom: 2px solid midnightblue;
+  cursor: pointer;
+}
+nav i {
+  font-size: 2.2rem;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero_content {
+  font-size: 3.2rem;
+  line-height: 1.2;
+}
+.hero_content h4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: grid;
+  place-items: center;
+}
+.hero_image img {
+  border-radius: 2rem;
+}
+
+.h-card {
+  display: flex;
+  margin: 2rem 1rem;
+  box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.card_content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+}
+.status a {
+  text-decoration: none;
+}
+.read-btn {
+  all: unset;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  color: black;
+}
+.read-btn:hover {
+  border-bottom: 1px solid #ccc;
+}
